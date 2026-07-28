@@ -9,7 +9,6 @@ with st.sidebar:
     st.title("🤖 Chatbot")
     st.write("Machine Learning Chatbot")
     st.write("Model : Logistic Regression")
-    st.write("Made by Anant Yadav")
 
 if st.sidebar.button("🗑 Clear Chat"):
     st.session_state.messages = []
