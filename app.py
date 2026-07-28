@@ -26,6 +26,8 @@ from nltk.stem import PorterStemmer
 
 nltk.download("punkt")
 nltk.download("stopwords")
+nltk.download("punkt_tab")
+
 
 # Load dataset
 df = pd.read_csv("bot.csv")
